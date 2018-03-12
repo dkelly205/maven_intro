@@ -6,7 +6,7 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.driver.class">org.postgresql.Driver</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.url">jdbc:postgresql://localhost/employeedb</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
         <property name="connection.pool_size">1</property>
